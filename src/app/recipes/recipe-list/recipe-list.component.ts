@@ -10,9 +10,10 @@ import { Recipe } from '../recipe.model';
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
     new Recipe(
-    'Test Recipe',
-    'This is a test',
-    'http://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/18180350/051SIP112-grilled-mustard-rosemary-chicken-recipe-alt-main.jpg');
+      'Test Recipe',
+      'This is a test',
+      'http://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/18180350/051SIP112-grilled-mustard-rosemary-chicken-recipe-alt-main.jpg',
+    ),
   ];
 
   constructor() { }
